@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://sandhit-iphone.vercel.app/sitemap.xml
