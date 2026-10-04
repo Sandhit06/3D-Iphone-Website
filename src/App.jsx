@@ -7,6 +7,7 @@ import HowItWorks from './components/HowItWorks';
 import Footer from './components/Footer';
 
 import * as Sentry from '@sentry/react';
+import { Analytics } from '@vercel/analytics/react';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Features />
       <HowItWorks />
       <Footer />
+      <Analytics />
     </main>
   )
 }
